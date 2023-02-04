@@ -77,14 +77,19 @@ poetry env use x.x.x
 poetry init
 ```
 
-ライブラリをインストールする。  
+ライブラリを追加する。  
 ```
 poetry add xxx
 ``` 
 
-開発用のライブラリ(e.g. black, mypy)をインストールする。  
+開発用のライブラリ(e.g. black, mypy)を追加する。  
 ```
 poetry add -D xxx
+```
+
+ライブラリ群をインストールする。
+```
+poetry install
 ```
 
 `$SHELL`環境変数に従って、仮想環境の中でshellを起動する。  
