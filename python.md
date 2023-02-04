@@ -67,6 +67,11 @@ pyenv local x.x.x
 poetry config virtualenvs.in-project true --local
 ``` 
 
+poetryが参照するpython versionの変更を行う。
+```
+poetry env use x.x.x
+```
+
 既存のディレクトリが存在している場合は、初期化を行う。  
 ```
 poetry init
